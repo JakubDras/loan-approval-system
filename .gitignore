@@ -1,0 +1,22 @@
+# Środowiska wirtualne
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Dane (lokalne, nie pchamy ich na GitHuba!)
+data/
+*.csv
+*.db
+*.sqlite3
+
+# Środowiska deweloperskie i IDE
+.vscode/
+.idea/
+.env
+
+# Pliki MLflow
+mlruns/
