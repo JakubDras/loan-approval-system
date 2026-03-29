@@ -1,0 +1,27 @@
+data:
+  raw_data_path: "data/Loan_approval_data_2025.csv"
+  batch_size: 1024
+  random_state: 42
+  test_size_1: 0.15
+  test_size_2: 0.176
+  cols_to_log:
+    - 'annual_income'
+    - 'loan_amount'
+    - 'current_debt'
+    - 'savings_assets'
+
+  features_to_drop:
+    - 'savings_assets'
+    - 'loan_intent_Home Improvement'
+    - 'payment_to_income_ratio'
+    - 'loan_intent_Debt Consolidation'
+    - 'loan_intent_Medical'
+    - 'derogatory_marks'
+
+model:
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  max_epochs: 20
+
+compression:
+  pruning_percentage: 0.3
