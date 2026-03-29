@@ -6,7 +6,7 @@ System został zaprojektowany w architekturze mikroserwisowej (FastAPI + Docker)
 
 ---
 
-## 🏗️ Architektura Systemu i Modelu Bazowego
+## Architektura Systemu i Modelu Bazowego
 
 System opiera się na wielowarstwowym perceptronie (MLP) zbudowanym w **PyTorch Lightning**. Aby zapobiec przeuczeniu i ustabilizować proces treningu, architektura wykorzystuje warstwy *Batch Normalization* oraz *Dropout*.
 
