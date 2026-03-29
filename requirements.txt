@@ -1,0 +1,28 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Przetwarzanie danych i wizualizacja
+pandas>=2.1.0
+numpy>=1.26.0
+scikit-learn>=1.3.0
+seaborn>=0.13.0
+matplotlib>=3.8.0
+
+# Deep Learning i Metryki (wymuszona wersja CUDA)
+torch==2.9.0+cu126
+pytorch-lightning>=2.1.0
+torchmetrics>=1.2.0
+
+# Explainable AI (XAI)
+shap>=0.44.0
+
+# MLOps i Tracking
+mlflow>=2.10.0
+dvc>=3.45.0
+
+# API i Serwowanie Modelu
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+
+# Testowanie
+pytest>=8.0.0
